@@ -50,13 +50,13 @@ function parkingGhent() {
             var color;
             if(percentage < 20 && open===true)
             {
-                color = 'green';
+                color = 'red';
             }
             else if (percentage >= 20 && percentage <= 50 && open===true){
                 color = 'orange';
             }
             else if (percentage > 50 && open===true){
-                color = 'red';
+                color = 'green';
             }
             else {
                 color = 'grey';
